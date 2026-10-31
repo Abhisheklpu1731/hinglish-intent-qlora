@@ -13,7 +13,7 @@ Ten intents from e-commerce and banking support (order status, refund, cancellat
 
 ## Demo
 
-A Gradio app (`space/`) runs the fine-tuned model next to the base model on the same message, so the effect of fine-tuning is visible side by side, with CPU latency for each. It runs on a free Hugging Face CPU Space.
+A Streamlit app (`demo/streamlit_app.py`) runs the fine-tuned model and the base model on the same message, side by side. Both come from **one** copy of the weights: the base answer is the same model with the LoRA adapter switched off, so the comparison fits in a free CPU host's memory.
 
 **Live demo:** _link added after deployment_
 
@@ -79,11 +79,10 @@ pytest tests
 ## Deploy the demo (free)
 
 1. Run the Colab notebook to the end. Its last cell pushes the LoRA adapter to the Hugging Face Hub (this repo's is [`abhikrs41/qwen05-hinglish-intent-lora`](https://huggingface.co/abhikrs41/qwen05-hinglish-intent-lora)).
-2. On huggingface.co: **New Space** → SDK **Gradio** → hardware **CPU basic (free)**.
-3. Upload the three files from `space/` (`app.py`, `requirements.txt`, `README.md`).
-4. If your adapter repo name differs, set `ADAPTER_ID` under Space → Settings → Variables.
+2. On [Streamlit Community Cloud](https://share.streamlit.io): **Create app** → this repo → main file `demo/streamlit_app.py`. It installs `demo/requirements.txt` (CPU inference only).
+3. If your adapter has a different name, add `ADAPTER_ID = "<user>/<repo>"` under App settings → Secrets.
 
-The first start downloads the 0.5B model (~1 GB) and takes a few minutes.
+`space/` holds a Gradio version of the same demo for Hugging Face Spaces (free Gradio Spaces now need a PRO plan).
 
 ## Structure
 ```
@@ -93,5 +92,6 @@ src/train.py          LoRA / QLoRA SFT with TRL
 src/evaluate.py       base vs fine-tuned evaluation
 train_colab.ipynb     end-to-end Colab run
 tests/                unit tests for parsing and metrics
+demo/                 Streamlit demo (free hosting)
 space/                Gradio demo for Hugging Face Spaces
 ```

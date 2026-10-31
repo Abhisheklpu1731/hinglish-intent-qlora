@@ -1,0 +1,4 @@
+torch
+transformers>=5.0
+peft>=0.20
+streamlit>=1.40
