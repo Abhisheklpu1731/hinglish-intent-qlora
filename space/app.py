@@ -5,7 +5,7 @@ fine-tuning is visible on the same message.
 
 Env vars (Space → Settings → Variables):
     BASE_MODEL  default Qwen/Qwen2.5-0.5B-Instruct
-    ADAPTER_ID  your pushed LoRA adapter, e.g. Abhisheklpu1731/qwen05-hinglish-intent-lora
+    ADAPTER_ID  your pushed LoRA adapter, e.g. abhikrs41/qwen05-hinglish-intent-lora
 """
 
 import json
@@ -18,7 +18,7 @@ from peft import PeftModel
 from transformers import AutoModelForCausalLM, AutoTokenizer
 
 BASE = os.getenv("BASE_MODEL", "Qwen/Qwen2.5-0.5B-Instruct")
-ADAPTER = os.getenv("ADAPTER_ID", "Abhisheklpu1731/qwen05-hinglish-intent-lora")
+ADAPTER = os.getenv("ADAPTER_ID", "abhikrs41/qwen05-hinglish-intent-lora")
 
 INTENTS = ["order_status", "refund_request", "cancel_order", "payment_failed", "card_block",
            "address_change", "delivery_delay", "product_return", "account_login_issue", "talk_to_agent"]

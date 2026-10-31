@@ -68,7 +68,7 @@ pytest tests
 
 ## Deploy the demo (free)
 
-1. Run the Colab notebook to the end. Its last cell pushes the LoRA adapter to `<your-hf-username>/qwen05-hinglish-intent-lora`.
+1. Run the Colab notebook to the end. Its last cell pushes the LoRA adapter to the Hugging Face Hub (this repo's is [`abhikrs41/qwen05-hinglish-intent-lora`](https://huggingface.co/abhikrs41/qwen05-hinglish-intent-lora)).
 2. On huggingface.co: **New Space** → SDK **Gradio** → hardware **CPU basic (free)**.
 3. Upload the three files from `space/` (`app.py`, `requirements.txt`, `README.md`).
 4. If your adapter repo name differs, set `ADAPTER_ID` under Space → Settings → Variables.
