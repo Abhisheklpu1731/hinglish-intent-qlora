@@ -35,8 +35,17 @@ def main():
 
     use_cuda = torch.cuda.is_available()
     use_4bit = use_cuda and not args.no_4bit
-    bf16 = use_cuda and torch.cuda.is_bf16_supported()
+    # Real bf16 needs an Ampere+ GPU (compute capability >= 8.0). torch.cuda.is_bf16_supported()
+    # also returns True on a T4 (emulated), which then crashes inside cuBLAS, so check the hardware.
+    ampere = use_cuda and torch.cuda.get_device_capability()[0] >= 8
+    bf16 = ampere
     compute_dtype = torch.bfloat16 if bf16 else torch.float16
+    if use_cuda and not ampere:
+        # TRL's chunked loss kernel accumulates with addmm(out_dtype=float32), which pre-Ampere GPUs
+        # (T4, V100) don't support. Switch it to TRL's own fallback path: same math, slightly slower.
+        import trl.kernels.chunked_logprob as chunked
+        chunked._MM_OUT_DTYPE = False
+        print(f"GPU {torch.cuda.get_device_name()} is pre-Ampere: using fp16 and the fallback loss kernel")
 
     ds = load_dataset("json", data_files={
         "train": f"{args.data}/train.jsonl",

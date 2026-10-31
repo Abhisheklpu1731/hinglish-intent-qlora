@@ -54,7 +54,9 @@ def main():
 
     device = "cuda" if torch.cuda.is_available() else "cpu"
     dtype = torch.float16 if device == "cuda" else torch.float32
-    tokenizer = AutoTokenizer.from_pretrained(args.adapter or args.model)
+    if args.adapter and not Path(args.adapter, "adapter_config.json").exists():
+        sys.exit(f"No trained adapter found at {args.adapter}. Run src/train.py first and check it finished.")
+    tokenizer = AutoTokenizer.from_pretrained(args.model)   # LoRA doesn't change the tokenizer
     if tokenizer.pad_token is None:
         tokenizer.pad_token = tokenizer.eos_token
     model = AutoModelForCausalLM.from_pretrained(args.model, dtype=dtype).to(device)
