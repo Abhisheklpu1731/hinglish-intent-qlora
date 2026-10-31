@@ -1,0 +1,11 @@
+torch
+transformers>=5.0
+trl>=1.0
+peft>=0.20
+datasets>=4.0
+accelerate>=1.0
+bitsandbytes>=0.45
+pandas
+matplotlib
+tabulate
+wandb

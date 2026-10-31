@@ -1,0 +1,213 @@
+{"text": "mera address update kar do pls", "intent": "address_change", "order_id": null}
+{"text": "customer care agent se connect karo", "intent": "talk_to_agent", "order_id": null}
+{"text": "cancel kar do bhai, ab zarurat nahi hai", "intent": "cancel_order", "order_id": null}
+{"text": "defective water bottle mila hai, replace ya return chahiye jaldi", "intent": "product_return", "order_id": null}
+{"text": "plz cancel my order od630608968", "intent": "cancel_order", "order_id": "OD630608968"}
+{"text": "card temporarily block kar sakte ho? jaldi", "intent": "card_block", "order_id": null}
+{"text": "amount deduct ho gaya par confirmation nahi aaya", "intent": "payment_failed", "order_id": null}
+{"text": "order 316292586 late kyun hai", "intent": "delivery_delay", "order_id": "316292586"}
+{"text": "mera order ORD886928440 kahan pahuncha?", "intent": "order_status", "order_id": "ORD886928440"}
+{"text": "my jeans was supposed to arrive 12 days ago", "intent": "delivery_delay", "order_id": null}
+{"text": "forgot password link kaam nhi kar raha", "intent": "account_login_issue", "order_id": null}
+{"text": "block my card immediately", "intent": "card_block", "order_id": null}
+{"text": "return window abhi open hai kya order 706188973 ke liye urgent", "intent": "product_return", "order_id": "706188973"}
+{"text": "plz refund order 326960306, product kharab tha", "intent": "refund_request", "order_id": "326960306"}
+{"text": "return pickup schedule karna hai ord836703710 ka", "intent": "product_return", "order_id": "ORD836703710"}
+{"text": "naya address daalna hai mere order mein", "intent": "address_change", "order_id": null}
+{"text": "mera account access nahi ho raha", "intent": "account_login_issue", "order_id": null}
+{"text": "card chori ho gaya, jaldi block kro", "intent": "card_block", "order_id": null}
+{"text": "please refund order 917665954, product kharab tha", "intent": "refund_request", "order_id": "917665954"}
+{"text": "mujhe shoes return karna hai", "intent": "product_return", "order_id": null}
+{"text": "login nahi ho raha mra account mein urgent", "intent": "account_login_issue", "order_id": null}
+{"text": "manager se baat karni hai", "intent": "talk_to_agent", "order_id": null}
+{"text": "payment declined aa raha hai baar baar", "intent": "payment_failed", "order_id": null}
+{"text": "transaction fail hua 799 ka, ab kya karu", "intent": "payment_failed", "order_id": null}
+{"text": "card temporarily block kar sakte ho? jaldi", "intent": "card_block", "order_id": null}
+{"text": "return pickup schedule karna hai kx58715123 ka", "intent": "product_return", "order_id": "KX58715123"}
+{"text": "size chhota hai, return kaise karu", "intent": "product_return", "order_id": null}
+{"text": "order 172600063 late kyun hai", "intent": "delivery_delay", "order_id": "172600063"}
+{"text": "I can't log in to my account", "intent": "account_login_issue", "order_id": null}
+{"text": "ghar shift ho gaya, address change karna h", "intent": "address_change", "order_id": null}
+{"text": "mera jeans wala order cancel kardo urgent", "intent": "cancel_order", "order_id": null}
+{"text": "return window abhi open hai kia order KX494793554 ke liye", "intent": "product_return", "order_id": "KX494793554"}
+{"text": "naya address daalna h mere order mein", "intent": "address_change", "order_id": null}
+{"text": "I want to talk to a human", "intent": "talk_to_agent", "order_id": null}
+{"text": "pincode galat hai, address badalna h", "intent": "address_change", "order_id": null}
+{"text": "block my card immediately", "intent": "card_block", "order_id": null}
+{"text": "2499 rupaye ka refund abhi tak nahin aaya urgent", "intent": "refund_request", "order_id": null}
+{"text": "mera refund pending dikha raha hai 2 din se", "intent": "refund_request", "order_id": null}
+{"text": "galti se t-shirt order ho gaya, cancel karna hai", "intent": "cancel_order", "order_id": null}
+{"text": "koi senior se baat karwao jaldi", "intent": "talk_to_agent", "order_id": null}
+{"text": "delivery date nikal gayi, jeans nahi aaya", "intent": "delivery_delay", "order_id": null}
+{"text": "my order od675233376 - any update", "intent": "order_status", "order_id": "OD675233376"}
+{"text": "please cancel my order ORD565921993", "intent": "cancel_order", "order_id": "ORD565921993"}
+{"text": "account locked dikha raha hai", "intent": "account_login_issue", "order_id": null}
+{"text": "card se payment nhi ho raha", "intent": "payment_failed", "order_id": null}
+{"text": "why is my delivery delayed", "intent": "delivery_delay", "order_id": null}
+{"text": "defective t-shirt mila hai, replace ya return chahiye", "intent": "product_return", "order_id": null}
+{"text": "order track karna hai, id 862266893 urgent", "intent": "order_status", "order_id": "862266893"}
+{"text": "block my card immediately", "intent": "card_block", "order_id": null}
+{"text": "bot se baat nahi karni, agent do", "intent": "talk_to_agent", "order_id": null}
+{"text": "I want my money back for KX148438399", "intent": "refund_request", "order_id": "KX148438399"}
+{"text": "ghar shift ho gaya, address change karna hai", "intent": "address_change", "order_id": null}
+{"text": "I placed order OD415013519 by mistake, cancel it", "intent": "cancel_order", "order_id": "OD415013519"}
+{"text": "paisa wapas karo, order ord466506372 cancel ho gaya tha", "intent": "refund_request", "order_id": "ORD466506372"}
+{"text": "499 rupaye ka refund abhi tak nhi aaya !!", "intent": "refund_request", "order_id": null}
+{"text": "my payment failed but money was deducted", "intent": "payment_failed", "order_id": null}
+{"text": "order track karna hai, id 16330865", "intent": "order_status", "order_id": "16330865"}
+{"text": "debit card lost ho gaya kal", "intent": "card_block", "order_id": null}
+{"text": "I want to talk to a human", "intent": "talk_to_agent", "order_id": null}
+{"text": "mera kurta wala order cancel kardo", "intent": "cancel_order", "order_id": null}
+{"text": "mera account access nahi ho raha", "intent": "account_login_issue", "order_id": null}
+{"text": "credit card band karna hai", "intent": "card_block", "order_id": null}
+{"text": "maine jeans order kiya tha, uska kya hua urgent", "intent": "order_status", "order_id": null}
+{"text": "galat item bhej diya, wapas lo !!", "intent": "product_return", "order_id": null}
+{"text": "my order OD264697684 - any update?", "intent": "order_status", "order_id": "OD264697684"}
+{"text": "my charger was supposed to arrive 9 days ago", "intent": "delivery_delay", "order_id": null}
+{"text": "OTP nahi aa raha login ke liye urgent", "intent": "account_login_issue", "order_id": null}
+{"text": "size chhota hai, return kaise karu", "intent": "product_return", "order_id": null}
+{"text": "delivery date nikal gayi, mixer grinder nahi aaya", "intent": "delivery_delay", "order_id": null}
+{"text": "299 debit ho gaye but order place nahi hua asap", "intent": "payment_failed", "order_id": null}
+{"text": "paise kat gaye, order 427245798 pending hai", "intent": "payment_failed", "order_id": "427245798"}
+{"text": "refund kab milega? 8 din ho gaye urgent", "intent": "refund_request", "order_id": null}
+{"text": "mra order 688321204 kahan pahuncha", "intent": "order_status", "order_id": "688321204"}
+{"text": "I want my money back for 327130941", "intent": "refund_request", "order_id": "327130941"}
+{"text": "delivery address change karna hai order KX134221153 ka", "intent": "address_change", "order_id": "KX134221153"}
+{"text": "my order OD151522640 - any update", "intent": "order_status", "order_id": "OD151522640"}
+{"text": "delivery boy aaya hi nahin aaj", "intent": "delivery_delay", "order_id": null}
+{"text": "real person se baat karwao please", "intent": "talk_to_agent", "order_id": null}
+{"text": "mera shoes ka order kab tak aayega !!", "intent": "order_status", "order_id": null}
+{"text": "2499 debit ho gaye but order place nahin hua", "intent": "payment_failed", "order_id": null}
+{"text": "expected delivery kal thi, aaj tak nhi aaya", "intent": "delivery_delay", "order_id": null}
+{"text": "my payment failed but money was deducted", "intent": "payment_failed", "order_id": null}
+{"text": "ORD609602642 cancel karna hai abhi ke abhi", "intent": "cancel_order", "order_id": "ORD609602642"}
+{"text": "I want to talk to a human", "intent": "talk_to_agent", "order_id": null}
+{"text": "kia aap bata sakte ho mera parcel kahan hai asap", "intent": "order_status", "order_id": null}
+{"text": "order 451868896 dusre address pe bhej sakte ho?", "intent": "address_change", "order_id": "451868896"}
+{"text": "payment declined aa raha hai baar baar", "intent": "payment_failed", "order_id": null}
+{"text": "I placed order ORD551051458 by mistake, cancel it", "intent": "cancel_order", "order_id": "ORD551051458"}
+{"text": "customer care agent se connect karo", "intent": "talk_to_agent", "order_id": null}
+{"text": "otp galat bata raha h har baar", "intent": "account_login_issue", "order_id": null}
+{"text": "mera account access nhi ho raha", "intent": "account_login_issue", "order_id": null}
+{"text": "card chori ho gaya, jaldi block karo", "intent": "card_block", "order_id": null}
+{"text": "delivery boy aaya hi nahin aaj", "intent": "delivery_delay", "order_id": null}
+{"text": "bahut late ho raha hai order", "intent": "delivery_delay", "order_id": null}
+{"text": "address galat daal diya, update karo", "intent": "address_change", "order_id": null}
+{"text": "please cancel my order 408569245", "intent": "cancel_order", "order_id": "408569245"}
+{"text": "paisa wapas karo, order 14778194 cancel ho gaya tha urgent", "intent": "refund_request", "order_id": "14778194"}
+{"text": "bahut late ho raha hai order", "intent": "delivery_delay", "order_id": null}
+{"text": "manager se baat karni hai", "intent": "talk_to_agent", "order_id": null}
+{"text": "cancel kar do bhai, ab zarurat nahin hai", "intent": "cancel_order", "order_id": null}
+{"text": "galat item bhej diya, wapas lo", "intent": "product_return", "order_id": null}
+{"text": "refund process start karo plz", "intent": "refund_request", "order_id": null}
+{"text": "connect me to customer support agent", "intent": "talk_to_agent", "order_id": null}
+{"text": "my kurta was supposed to arrive 7 days ago", "intent": "delivery_delay", "order_id": null}
+{"text": "card kho gaya hai, block karna h", "intent": "card_block", "order_id": null}
+{"text": "credit card band karna hai", "intent": "card_block", "order_id": null}
+{"text": "799 debit ho gaye but order place nahi hua", "intent": "payment_failed", "order_id": null}
+{"text": "order ord131814525 ka status kya hai bhai", "intent": "order_status", "order_id": "ORD131814525"}
+{"text": "connect me to customer support agent", "intent": "talk_to_agent", "order_id": null}
+{"text": "order ORD431931770 ka status kya hai bhai", "intent": "order_status", "order_id": "ORD431931770"}
+{"text": "delivery address change karna hai order 78646103 ka", "intent": "address_change", "order_id": "78646103"}
+{"text": "real person se baat karwao please", "intent": "talk_to_agent", "order_id": null}
+{"text": "delivery address change karna hai order 114496093 ka", "intent": "address_change", "order_id": "114496093"}
+{"text": "otp nhi aa raha login ke liye", "intent": "account_login_issue", "order_id": null}
+{"text": "manager se baat karni hai", "intent": "talk_to_agent", "order_id": null}
+{"text": "paise kat gaye, order KX821194689 pending hai", "intent": "payment_failed", "order_id": "KX821194689"}
+{"text": "debit card lost ho gaya kal", "intent": "card_block", "order_id": null}
+{"text": "paise kat gaye, order 583313757 pending h !!", "intent": "payment_failed", "order_id": "583313757"}
+{"text": "bot se baat nahi karni, agent do", "intent": "talk_to_agent", "order_id": null}
+{"text": "pincode galat hai, address badalna hai", "intent": "address_change", "order_id": null}
+{"text": "forgot password link kaam nahi kar raha", "intent": "account_login_issue", "order_id": null}
+{"text": "i want my money back for ord912628927", "intent": "refund_request", "order_id": "ORD912628927"}
+{"text": "ord618491359 cancel karna h abhi ke abhi", "intent": "cancel_order", "order_id": "ORD618491359"}
+{"text": "ghar shift ho gaya, address change karna hai !!", "intent": "address_change", "order_id": null}
+{"text": "order ORD205283935 dusre address pe bhej sakte ho?", "intent": "address_change", "order_id": "ORD205283935"}
+{"text": "mera address update kar do plz", "intent": "address_change", "order_id": null}
+{"text": "bot se baat nahi karni, agent do", "intent": "talk_to_agent", "order_id": null}
+{"text": "account locked dikha raha h", "intent": "account_login_issue", "order_id": null}
+{"text": "amount deduct ho gaya par confirmation nahi aaya", "intent": "payment_failed", "order_id": null}
+{"text": "koi senior se baat karwao", "intent": "talk_to_agent", "order_id": null}
+{"text": "mera refund pending dikha raha hai 13 din se", "intent": "refund_request", "order_id": null}
+{"text": "return pickup schedule karna hai 727642177 ka !!", "intent": "product_return", "order_id": "727642177"}
+{"text": "pincode galat h, address badalna hai", "intent": "address_change", "order_id": null}
+{"text": "login nahi ho raha mera account mein", "intent": "account_login_issue", "order_id": null}
+{"text": "please block my debit card, it got stolen asap", "intent": "card_block", "order_id": null}
+{"text": "order 964553132 ka status kya hai bhai", "intent": "order_status", "order_id": "964553132"}
+{"text": "refund kab milega? 2 din ho gaye", "intent": "refund_request", "order_id": null}
+{"text": "mujhe charger return karna hai", "intent": "product_return", "order_id": null}
+{"text": "size chhota hai, return kaise karu", "intent": "product_return", "order_id": null}
+{"text": "return window abhi open hai kya order od872952313 ke liye jaldi", "intent": "product_return", "order_id": "OD872952313"}
+{"text": "galti se water bottle order ho gaya, cancel karna h", "intent": "cancel_order", "order_id": null}
+{"text": "delivery boy aaya hi nahi aaj", "intent": "delivery_delay", "order_id": null}
+{"text": "card kho gaya hai, block karna hai", "intent": "card_block", "order_id": null}
+{"text": "delivery date nikal gayi, laptop bag nhi aaya", "intent": "delivery_delay", "order_id": null}
+{"text": "order OD992082400 late kyun hai?", "intent": "delivery_delay", "order_id": "OD992082400"}
+{"text": "can you check where my order 163407200 is", "intent": "order_status", "order_id": "163407200"}
+{"text": "mera saree wala order cancel kardo", "intent": "cancel_order", "order_id": null}
+{"text": "card temporarily block kar sakte ho", "intent": "card_block", "order_id": null}
+{"text": "kya aap bata sakte ho mera parcel kahan h", "intent": "order_status", "order_id": null}
+{"text": "card kho gaya h, block karna hai !!", "intent": "card_block", "order_id": null}
+{"text": "kya aap bata sakte ho mera parcel kahan hai", "intent": "order_status", "order_id": null}
+{"text": "product damaged aaya hai, return karo", "intent": "product_return", "order_id": null}
+{"text": "order track karna h, id KX84041730", "intent": "order_status", "order_id": "KX84041730"}
+{"text": "maine phone order kiya tha, uska kia hua", "intent": "order_status", "order_id": null}
+{"text": "mera shoes ka order kab tak aayega", "intent": "order_status", "order_id": null}
+{"text": "please refund order ORD454056890, product kharab tha", "intent": "refund_request", "order_id": "ORD454056890"}
+{"text": "transaction fail hua 299 ka, ab kya karu", "intent": "payment_failed", "order_id": null}
+{"text": "connect me to customer support agent !!", "intent": "talk_to_agent", "order_id": null}
+{"text": "product damaged aaya hai, return karo", "intent": "product_return", "order_id": null}
+{"text": "order cancel kaise karu?", "intent": "cancel_order", "order_id": null}
+{"text": "1299 rupaye ka refund abhi tak nahin aaya", "intent": "refund_request", "order_id": null}
+{"text": "expected delivery kal thi, aaj tak nahi aaya", "intent": "delivery_delay", "order_id": null}
+{"text": "galat item bhej diya, wapas lo", "intent": "product_return", "order_id": null}
+{"text": "product damaged aaya hai, return karo", "intent": "product_return", "order_id": null}
+{"text": "mera t-shirt ka order kab tak aayega asap", "intent": "order_status", "order_id": null}
+{"text": "why is my delivery delayed", "intent": "delivery_delay", "order_id": null}
+{"text": "login nahi ho raha mra account mein !!", "intent": "account_login_issue", "order_id": null}
+{"text": "I can't log in to my account", "intent": "account_login_issue", "order_id": null}
+{"text": "bahut late ho raha hai order asap", "intent": "delivery_delay", "order_id": null}
+{"text": "forgot password link kaam nahi kar raha", "intent": "account_login_issue", "order_id": null}
+{"text": "refund kab milega? 3 din ho gaye", "intent": "refund_request", "order_id": null}
+{"text": "koi senior se baat karwao", "intent": "talk_to_agent", "order_id": null}
+{"text": "I placed order OD683164268 by mistake, cancel it", "intent": "cancel_order", "order_id": "OD683164268"}
+{"text": "real person se baat karwao please", "intent": "talk_to_agent", "order_id": null}
+{"text": "mera refund pending dikha raha hai 5 din se asap", "intent": "refund_request", "order_id": null}
+{"text": "galti se kurta order ho gaya, cancel karna hai", "intent": "cancel_order", "order_id": null}
+{"text": "card se payment nahin ho raha", "intent": "payment_failed", "order_id": null}
+{"text": "please block my debit card, it got stolen", "intent": "card_block", "order_id": null}
+{"text": "order cancel kaise karu?", "intent": "cancel_order", "order_id": null}
+{"text": "address galat daal diya, update karo asap", "intent": "address_change", "order_id": null}
+{"text": "mra order ORD367944766 kahan pahuncha?", "intent": "order_status", "order_id": "ORD367944766"}
+{"text": "account locked dikha raha hai", "intent": "account_login_issue", "order_id": null}
+{"text": "card chori ho gaya, jaldi block kro", "intent": "card_block", "order_id": null}
+{"text": "mujhe charger return karna hai", "intent": "product_return", "order_id": null}
+{"text": "refund process start karo please", "intent": "refund_request", "order_id": null}
+{"text": "customer care agent se connect karo", "intent": "talk_to_agent", "order_id": null}
+{"text": "can you check where my order od826690353 is", "intent": "order_status", "order_id": "OD826690353"}
+{"text": "my payment failed but money was deducted", "intent": "payment_failed", "order_id": null}
+{"text": "transaction fail hua 2499 ka, ab kia karu", "intent": "payment_failed", "order_id": null}
+{"text": "refund process start karo please", "intent": "refund_request", "order_id": null}
+{"text": "please block my debit card, it got stolen", "intent": "card_block", "order_id": null}
+{"text": "order 885598792 dusre address pe bhej sakte ho", "intent": "address_change", "order_id": "885598792"}
+{"text": "mera address update kar do please", "intent": "address_change", "order_id": null}
+{"text": "debit card lost ho gaya kal", "intent": "card_block", "order_id": null}
+{"text": "can you check where my order 44126396 is", "intent": "order_status", "order_id": "44126396"}
+{"text": "maine headphones order kiya tha, uska kya hua", "intent": "order_status", "order_id": null}
+{"text": "kx507877404 cancel karna hai abhi ke abhi !!", "intent": "cancel_order", "order_id": "KX507877404"}
+{"text": "credit card band karna hai !!", "intent": "card_block", "order_id": null}
+{"text": "OTP galat bata raha hai har baar", "intent": "account_login_issue", "order_id": null}
+{"text": "why is my delivery delayed", "intent": "delivery_delay", "order_id": null}
+{"text": "card se payment nahi ho raha", "intent": "payment_failed", "order_id": null}
+{"text": "amount deduct ho gaya par confirmation nahi aaya", "intent": "payment_failed", "order_id": null}
+{"text": "expected delivery kal thi, aaj tak nahi aaya", "intent": "delivery_delay", "order_id": null}
+{"text": "cancel kar do bhai, ab zarurat nahi hai", "intent": "cancel_order", "order_id": null}
+{"text": "defective kurta mila hai, replace ya return chahiye", "intent": "product_return", "order_id": null}
+{"text": "order cancel kaise karu?", "intent": "cancel_order", "order_id": null}
+{"text": "OTP nahi aa raha login ke liye", "intent": "account_login_issue", "order_id": null}
+{"text": "paisa wapas karo, order ORD617890457 cancel ho gaya tha", "intent": "refund_request", "order_id": "ORD617890457"}
+{"text": "I can't log in to my account", "intent": "account_login_issue", "order_id": null}
+{"text": "OTP galat bata raha hai har baar", "intent": "account_login_issue", "order_id": null}
+{"text": "payment declined aa raha hai baar baar asap", "intent": "payment_failed", "order_id": null}
+{"text": "address galat daal diya, update karo urgent", "intent": "address_change", "order_id": null}
+{"text": "naya address daalna hai mere order mein", "intent": "address_change", "order_id": null}
