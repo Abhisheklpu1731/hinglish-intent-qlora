@@ -30,17 +30,20 @@ def main():
     ap.add_argument("--lora-r", type=int, default=16)
     ap.add_argument("--max-steps", type=int, default=-1, help="for quick smoke tests")
     ap.add_argument("--no-4bit", action="store_true", help="disable QLoRA (CPU / debugging)")
+    ap.add_argument("--fp32", action="store_true",
+                    help="plain LoRA in full fp32: no 4-bit, no mixed precision. Slower but runs on any GPU")
     ap.add_argument("--report-to", default="none", help="'wandb' to log runs")
     args = ap.parse_args()
 
     use_cuda = torch.cuda.is_available()
-    use_4bit = use_cuda and not args.no_4bit
+    use_4bit = use_cuda and not args.no_4bit and not args.fp32
     # Real bf16 needs an Ampere+ GPU (compute capability >= 8.0). torch.cuda.is_bf16_supported()
     # also returns True on a T4 (emulated), which then crashes inside cuBLAS, so check the hardware.
     ampere = use_cuda and torch.cuda.get_device_capability()[0] >= 8
-    bf16 = ampere
-    compute_dtype = torch.bfloat16 if bf16 else torch.float16
-    if use_cuda and not ampere:
+    bf16 = ampere and not args.fp32
+    fp16 = use_cuda and not ampere and not args.fp32
+    compute_dtype = torch.bfloat16 if bf16 else torch.float16 if fp16 else torch.float32
+    if fp16:
         # TRL's chunked loss kernel accumulates with addmm(out_dtype=float32), which pre-Ampere GPUs
         # (T4, V100) don't support. Switch it to TRL's own fallback path: same math, slightly slower.
         import trl.kernels.chunked_logprob as chunked
@@ -68,6 +71,8 @@ def main():
         )
         model_kwargs["device_map"] = "auto"
     model = AutoModelForCausalLM.from_pretrained(args.model, dtype=compute_dtype if use_cuda else torch.float32, **model_kwargs)
+    print(f"Mode: {'QLoRA 4-bit' if use_4bit else 'LoRA'} | weights {compute_dtype} | "
+          f"mixed precision: {'bf16' if bf16 else 'fp16' if fp16 else 'off (fp32)'}")
 
     peft_config = LoraConfig(
         r=args.lora_r,
@@ -93,7 +98,7 @@ def main():
         max_length=256,
         completion_only_loss=True,   # loss only on the JSON answer, not the prompt
         bf16=bf16,
-        fp16=use_cuda and not bf16,
+        fp16=fp16,
         gradient_checkpointing=use_cuda,
         report_to=args.report_to,
         seed=42,

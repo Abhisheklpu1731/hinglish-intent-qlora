@@ -1,4 +1,4 @@
-# Hinglish Support Intent — QLoRA Fine-tune of Qwen2.5-0.5B
+# Hinglish Support Intent — LoRA Fine-tune of Qwen2.5-0.5B
 
 Fine-tunes a small open LLM to read customer-support messages written in **Hinglish, Romanized Hindi or English** and return structured JSON:
 
@@ -24,7 +24,7 @@ Held-out test set: 240 messages built from sentence patterns **never seen in tra
 | Model | JSON valid | Intent accuracy | Macro-F1 | Order-ID exact | ms / example |
 |---|---|---|---|---|---|
 | Qwen2.5-0.5B-Instruct (zero-shot) | _run notebook_ | | | | |
-| + QLoRA SFT (this repo) | _run notebook_ | | | | |
+| + LoRA SFT (this repo) | _run notebook_ | | | | |
 
 Loss curve: `results/loss.png` · per-example predictions for error analysis: `results/*_predictions.jsonl`
 
@@ -35,10 +35,12 @@ Loss curve: `results/loss.png` · per-example predictions for error analysis: `r
 - Noise that real chat text has: spelling variants (`nahi/nhi`, `kya/kia`, `please/pls`), lowercase, dropped punctuation, "urgent/jaldi" suffixes.
 - **Leakage control:** ~25% of templates per intent are held out *before* slot filling, so the test set checks new phrasings, not memorised ones. 1,917 train / 213 val / 240 test.
 
-**2. QLoRA SFT** (`src/train.py`, TRL `SFTTrainer`)
-- Base weights frozen in **4-bit NF4** (double quantisation); **LoRA r=16, alpha=32** on all linear layers.
+**2. LoRA SFT** (`src/train.py`, TRL `SFTTrainer`)
+- **LoRA r=16, alpha=32** on all linear layers (8.8M trainable parameters, 1.7% of the model).
+- On the free Colab T4 it trains in full fp32 (`--fp32`). On Ampere GPUs it runs as **QLoRA**: base weights frozen in 4-bit NF4 with double quantisation, bf16 compute.
+- Precision handling for older GPUs: the T4 has no real bf16 support, and TRL casts QLoRA adapters to bf16, which breaks fp16 gradient scaling. `train.py` detects the GPU generation and picks a working setup instead of crashing.
 - Conversational prompt-completion format with **loss on the completion only**, so the model learns the answer rather than the system prompt.
-- 2 epochs, lr 2e-4, cosine schedule, fp16 on T4. Optional Weights & Biases logging (`--report-to wandb`).
+- 2 epochs, lr 2e-4, cosine schedule. Optional Weights & Biases logging (`--report-to wandb`).
 
 **3. Evaluation** (`src/evaluate.py`)
 - Greedy decoding, batched with left padding; LoRA merged into the base weights for inference.
