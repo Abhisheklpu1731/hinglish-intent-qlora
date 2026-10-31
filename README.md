@@ -15,7 +15,7 @@ Ten intents from e-commerce and banking support (order status, refund, cancellat
 
 A Streamlit app (`demo/streamlit_app.py`) runs the fine-tuned model and the base model on the same message, side by side. Both come from **one** copy of the weights: the base answer is the same model with the LoRA adapter switched off, so the comparison fits in a free CPU host's memory.
 
-**Live demo:** _link added after deployment_
+**Live demo:** [hinglish-finetune.streamlit.app](https://hinglish-finetune.streamlit.app)
 
 ## Results
 
