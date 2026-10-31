@@ -1,0 +1,11 @@
+{
+  "n": 240,
+  "json_valid": 1.0,
+  "intent_accuracy": 0.5542,
+  "intent_macro_f1": 0.5378,
+  "order_id_exact": 0.7667,
+  "ms_per_example": 40.8,
+  "model": "Qwen/Qwen2.5-0.5B-Instruct",
+  "adapter": null,
+  "device": "cuda"
+}

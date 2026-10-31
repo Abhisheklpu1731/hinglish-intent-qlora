@@ -1,0 +1,240 @@
+{"text": "can I change the shipping address for KX231521012 asap", "intent": "address_change", "order_id": "KX231521012", "raw_output": "{\"intent\": \"address_change\", \"order_id\": \"KX231521012\"}"}
+{"text": "I want to return the headphones from order KX254533205", "intent": "product_return", "order_id": "KX254533205", "raw_output": "{\"intent\": \"product_return\", \"order_id\": \"KX254533205\"}"}
+{"text": "app mein sign in fail ho raha hai", "intent": "account_login_issue", "order_id": null, "raw_output": "{\"intent\": \"account_login_issue\", \"order_id\": null}"}
+{"text": "kisi insaan se baat karni hai asap", "intent": "talk_to_agent", "order_id": null, "raw_output": "{\"intent\": \"talk_to_agent\", \"order_id\": null}"}
+{"text": "kisi ne mra card use kiya hai, block karo jaldi", "intent": "card_block", "order_id": null, "raw_output": "{\"intent\": \"card_block\", \"order_id\": null}"}
+{"text": "order kx839773829 cancel kar do jaldi", "intent": "cancel_order", "order_id": "KX839773829", "raw_output": "{\"intent\": \"cancel_order\", \"order_id\": \"KX839773829\"}"}
+{"text": "mera card block kar do turant", "intent": "card_block", "order_id": null, "raw_output": "{\"intent\": \"card_block\", \"order_id\": null}"}
+{"text": "kitna time aur lagega delivery mein, 34034078 !!", "intent": "delivery_delay", "order_id": "34034078", "raw_output": "{\"intent\": \"delivery_delay\", \"order_id\": \"34034078\"}"}
+{"text": "14 din ho gaye abhi tak delivery nhi hui", "intent": "delivery_delay", "order_id": null, "raw_output": "{\"intent\": \"delivery_delay\", \"order_id\": null}"}
+{"text": "password bhool gaya, reset kaise karu", "intent": "account_login_issue", "order_id": null, "raw_output": "{\"intent\": \"account_login_issue\", \"order_id\": null}"}
+{"text": "kisi insaan se baat karni hai", "intent": "talk_to_agent", "order_id": null, "raw_output": "{\"intent\": \"talk_to_agent\", \"order_id\": null}"}
+{"text": "upi se pay kiya, transaction failed dikha raha hai", "intent": "payment_failed", "order_id": null, "raw_output": "{\"intent\": \"payment_failed\", \"order_id\": null}"}
+{"text": "status update chahiye order kx751193655 ka please", "intent": "order_status", "order_id": "KX751193655", "raw_output": "{\"intent\": \"order_status\", \"order_id\": \"KX751193655\"}"}
+{"text": "kisi insaan se baat karni h", "intent": "talk_to_agent", "order_id": null, "raw_output": "{\"intent\": \"talk_to_agent\", \"order_id\": null}"}
+{"text": "kisi insaan se baat karni hai", "intent": "talk_to_agent", "order_id": null, "raw_output": "{\"intent\": \"talk_to_agent\", \"order_id\": null}"}
+{"text": "order od821472797 cancel kar do", "intent": "cancel_order", "order_id": "OD821472797", "raw_output": "{\"intent\": \"cancel_order\", \"order_id\": \"OD821472797\"}"}
+{"text": "mera card block kar do turant", "intent": "card_block", "order_id": null, "raw_output": "{\"intent\": \"card_block\", \"order_id\": null}"}
+{"text": "mujhe ye order nahi chahiye, cancel karo", "intent": "cancel_order", "order_id": null, "raw_output": "{\"intent\": \"cancel_order\", \"order_id\": null}"}
+{"text": "UPI se pay kiya, transaction failed dikha raha hai", "intent": "payment_failed", "order_id": null, "raw_output": "{\"intent\": \"payment_failed\", \"order_id\": null}"}
+{"text": "flat number galat likha hai address mein", "intent": "address_change", "order_id": null, "raw_output": "{\"intent\": \"address_change\", \"order_id\": null}"}
+{"text": "flat number galat likha h address mein", "intent": "address_change", "order_id": null, "raw_output": "{\"intent\": \"address_change\", \"order_id\": null}"}
+{"text": "kitna time aur lagega delivery mein, 653256662", "intent": "delivery_delay", "order_id": "653256662", "raw_output": "{\"intent\": \"delivery_delay\", \"order_id\": \"653256662\"}"}
+{"text": "flat number galat likha hai address mein", "intent": "address_change", "order_id": null, "raw_output": "{\"intent\": \"address_change\", \"order_id\": null}"}
+{"text": "order OD630150147 cancel kar do", "intent": "cancel_order", "order_id": "OD630150147", "raw_output": "{\"intent\": \"cancel_order\", \"order_id\": \"OD630150147\"}"}
+{"text": "mera card block kar do turant", "intent": "card_block", "order_id": null, "raw_output": "{\"intent\": \"card_block\", \"order_id\": null}"}
+{"text": "order KX496708987 cancel kar do", "intent": "cancel_order", "order_id": "KX496708987", "raw_output": "{\"intent\": \"cancel_order\", \"order_id\": \"KX496708987\"}"}
+{"text": "mujhe order 366452891 ka refund chahiye", "intent": "refund_request", "order_id": "366452891", "raw_output": "{\"intent\": \"refund_request\", \"order_id\": \"366452891\"}"}
+{"text": "kisi insaan se baat karni hai asap", "intent": "talk_to_agent", "order_id": null, "raw_output": "{\"intent\": \"talk_to_agent\", \"order_id\": null}"}
+{"text": "10 din ho gaye abhi tak delivery nahi hui", "intent": "delivery_delay", "order_id": null, "raw_output": "{\"intent\": \"delivery_delay\", \"order_id\": null}"}
+{"text": "app mein sign in fail ho raha hai", "intent": "account_login_issue", "order_id": null, "raw_output": "{\"intent\": \"account_login_issue\", \"order_id\": null}"}
+{"text": "kitna time aur lagega delivery mein, 172971060", "intent": "delivery_delay", "order_id": "172971060", "raw_output": "{\"intent\": \"delivery_delay\", \"order_id\": \"172971060\"}"}
+{"text": "7 din ho gaye abhi tak delivery nahi hui", "intent": "delivery_delay", "order_id": null, "raw_output": "{\"intent\": \"delivery_delay\", \"order_id\": null}"}
+{"text": "13 din ho gaye abhi tak delivery nahi hui", "intent": "delivery_delay", "order_id": null, "raw_output": "{\"intent\": \"delivery_delay\", \"order_id\": null}"}
+{"text": "kisi ne mera card use kiya hai, block karo", "intent": "card_block", "order_id": null, "raw_output": "{\"intent\": \"card_block\", \"order_id\": null}"}
+{"text": "app mein sign in fail ho raha hai", "intent": "account_login_issue", "order_id": null, "raw_output": "{\"intent\": \"account_login_issue\", \"order_id\": null}"}
+{"text": "return ho gaya kurta, refund kab aayega", "intent": "refund_request", "order_id": null, "raw_output": "{\"intent\": \"product_return\", \"order_id\": null}"}
+{"text": "call back karwa do kisi executive se", "intent": "talk_to_agent", "order_id": null, "raw_output": "{\"intent\": \"talk_to_agent\", \"order_id\": null}"}
+{"text": "password bhool gaya, reset kaise karu", "intent": "account_login_issue", "order_id": null, "raw_output": "{\"intent\": \"account_login_issue\", \"order_id\": null}"}
+{"text": "payment fail ho gaya par paisa kat gaya", "intent": "payment_failed", "order_id": null, "raw_output": "{\"intent\": \"payment_failed\", \"order_id\": null}"}
+{"text": "UPI se pay kiya, transaction failed dikha raha hai !!", "intent": "payment_failed", "order_id": null, "raw_output": "{\"intent\": \"payment_failed\", \"order_id\": null}"}
+{"text": "status update chahiye order 964835612 ka please", "intent": "order_status", "order_id": "964835612", "raw_output": "{\"intent\": \"order_status\", \"order_id\": \"964835612\"}"}
+{"text": "payment fail ho gaya par paisa kat gaya asap", "intent": "payment_failed", "order_id": null, "raw_output": "{\"intent\": \"payment_failed\", \"order_id\": null}"}
+{"text": "mixer grinder pasand nahi aaya, return karna hai", "intent": "product_return", "order_id": null, "raw_output": "{\"intent\": \"product_return\", \"order_id\": null}"}
+{"text": "flat number galat likha hai address mein", "intent": "address_change", "order_id": null, "raw_output": "{\"intent\": \"address_change\", \"order_id\": null}"}
+{"text": "kitna time aur lagega delivery mein, 53637924", "intent": "delivery_delay", "order_id": "53637924", "raw_output": "{\"intent\": \"delivery_delay\", \"order_id\": \"53637924\"}"}
+{"text": "return ho gaya phone, refund kab aayega", "intent": "refund_request", "order_id": null, "raw_output": "{\"intent\": \"product_return\", \"order_id\": null}"}
+{"text": "can I change the shipping address for OD968887569", "intent": "address_change", "order_id": "OD968887569", "raw_output": "{\"intent\": \"address_change\", \"order_id\": \"OD968887569\"}"}
+{"text": "12 din ho gaye abhi tak delivery nahi hui", "intent": "delivery_delay", "order_id": null, "raw_output": "{\"intent\": \"delivery_delay\", \"order_id\": null}"}
+{"text": "password bhool gaya, reset kaise karu", "intent": "account_login_issue", "order_id": null, "raw_output": "{\"intent\": \"account_login_issue\", \"order_id\": null}"}
+{"text": "kisi ne mra card use kiya h, block karo", "intent": "card_block", "order_id": null, "raw_output": "{\"intent\": \"card_block\", \"order_id\": null}"}
+{"text": "mujhe order OD839084565 ka refund chahiye", "intent": "refund_request", "order_id": "OD839084565", "raw_output": "{\"intent\": \"refund_request\", \"order_id\": \"OD839084565\"}"}
+{"text": "water bottle pasand nahi aaya, return karna hai", "intent": "product_return", "order_id": null, "raw_output": "{\"intent\": \"product_return\", \"order_id\": null}"}
+{"text": "payment fail ho gaya par paisa kat gaya", "intent": "payment_failed", "order_id": null, "raw_output": "{\"intent\": \"payment_failed\", \"order_id\": null}"}
+{"text": "kisi insaan se baat karni hai !!", "intent": "talk_to_agent", "order_id": null, "raw_output": "{\"intent\": \"talk_to_agent\", \"order_id\": null}"}
+{"text": "UPI se pay kiya, transaction failed dikha raha hai asap", "intent": "payment_failed", "order_id": null, "raw_output": "{\"intent\": \"payment_failed\", \"order_id\": null}"}
+{"text": "app mein sign in fail ho raha hai", "intent": "account_login_issue", "order_id": null, "raw_output": "{\"intent\": \"account_login_issue\", \"order_id\": null}"}
+{"text": "can I change the shipping address for ORD386043961", "intent": "address_change", "order_id": "ORD386043961", "raw_output": "{\"intent\": \"address_change\", \"order_id\": \"ORD386043961\"}"}
+{"text": "kisi ne mera card use kiya hai, block karo", "intent": "card_block", "order_id": null, "raw_output": "{\"intent\": \"card_block\", \"order_id\": null}"}
+{"text": "UPI se pay kiya, transaction failed dikha raha hai jaldi", "intent": "payment_failed", "order_id": null, "raw_output": "{\"intent\": \"payment_failed\", \"order_id\": null}"}
+{"text": "watch pasand nahi aaya, return karna hai urgent", "intent": "product_return", "order_id": null, "raw_output": "{\"intent\": \"product_return\", \"order_id\": null}"}
+{"text": "payment fail ho gaya par paisa kat gaya", "intent": "payment_failed", "order_id": null, "raw_output": "{\"intent\": \"payment_failed\", \"order_id\": null}"}
+{"text": "return ho gaya jeans, refund kab aayega", "intent": "refund_request", "order_id": null, "raw_output": "{\"intent\": \"product_return\", \"order_id\": null}"}
+{"text": "status update chahiye order ord666007396 ka please", "intent": "order_status", "order_id": "ORD666007396", "raw_output": "{\"intent\": \"order_status\", \"order_id\": \"ORD666007396\"}"}
+{"text": "2 din ho gaye abhi tak delivery nahi hui", "intent": "delivery_delay", "order_id": null, "raw_output": "{\"intent\": \"delivery_delay\", \"order_id\": null}"}
+{"text": "order ORD164319982 cancel kar do", "intent": "cancel_order", "order_id": "ORD164319982", "raw_output": "{\"intent\": \"cancel_order\", \"order_id\": \"ORD164319982\"}"}
+{"text": "app mein sign in fail ho raha hai", "intent": "account_login_issue", "order_id": null, "raw_output": "{\"intent\": \"account_login_issue\", \"order_id\": null}"}
+{"text": "password bhool gaya, reset kaise karu", "intent": "account_login_issue", "order_id": null, "raw_output": "{\"intent\": \"account_login_issue\", \"order_id\": null}"}
+{"text": "app mein sign in fail ho raha hai", "intent": "account_login_issue", "order_id": null, "raw_output": "{\"intent\": \"account_login_issue\", \"order_id\": null}"}
+{"text": "KX212379343 wala order abhi tak ship hua ya nahin?", "intent": "order_status", "order_id": "KX212379343", "raw_output": "{\"intent\": \"order_status\", \"order_id\": \"KX212379343\"}"}
+{"text": "mujhe ye order nahi chahiye, cancel karo asap", "intent": "cancel_order", "order_id": null, "raw_output": "{\"intent\": \"cancel_order\", \"order_id\": null}"}
+{"text": "kitna time aur lagega delivery mein, OD666471019", "intent": "delivery_delay", "order_id": "OD666471019", "raw_output": "{\"intent\": \"delivery_delay\", \"order_id\": \"OD666471019\"}"}
+{"text": "kisi ne mera card use kiya hai, block karo asap", "intent": "card_block", "order_id": null, "raw_output": "{\"intent\": \"card_block\", \"order_id\": null}"}
+{"text": "mujhe order ORD752833609 ka refund chahiye", "intent": "refund_request", "order_id": "ORD752833609", "raw_output": "{\"intent\": \"refund_request\", \"order_id\": \"ORD752833609\"}"}
+{"text": "can i change the shipping address for od775789553 urgent", "intent": "address_change", "order_id": "OD775789553", "raw_output": "{\"intent\": \"address_change\", \"order_id\": \"OD775789553\"}"}
+{"text": "flat number galat likha hai address mein", "intent": "address_change", "order_id": null, "raw_output": "{\"intent\": \"address_change\", \"order_id\": null}"}
+{"text": "app mein sign in fail ho raha hai", "intent": "account_login_issue", "order_id": null, "raw_output": "{\"intent\": \"account_login_issue\", \"order_id\": null}"}
+{"text": "14 din ho gaye abhi tak delivery nahi hui", "intent": "delivery_delay", "order_id": null, "raw_output": "{\"intent\": \"delivery_delay\", \"order_id\": null}"}
+{"text": "payment fail ho gaya par paisa kat gaya", "intent": "payment_failed", "order_id": null, "raw_output": "{\"intent\": \"payment_failed\", \"order_id\": null}"}
+{"text": "call back karwa do kisi executive se", "intent": "talk_to_agent", "order_id": null, "raw_output": "{\"intent\": \"talk_to_agent\", \"order_id\": null}"}
+{"text": "7 din ho gaye abhi tak delivery nahi hui", "intent": "delivery_delay", "order_id": null, "raw_output": "{\"intent\": \"delivery_delay\", \"order_id\": null}"}
+{"text": "UPI se pay kiya, transaction failed dikha raha hai", "intent": "payment_failed", "order_id": null, "raw_output": "{\"intent\": \"payment_failed\", \"order_id\": null}"}
+{"text": "can I change the shipping address for 950697522", "intent": "address_change", "order_id": "950697522", "raw_output": "{\"intent\": \"address_change\", \"order_id\": \"950697522\"}"}
+{"text": "I want to return the mixer grinder from order KX244352988", "intent": "product_return", "order_id": "KX244352988", "raw_output": "{\"intent\": \"product_return\", \"order_id\": \"KX244352988\"}"}
+{"text": "status update chahiye order od990572948 ka please", "intent": "order_status", "order_id": "OD990572948", "raw_output": "{\"intent\": \"order_status\", \"order_id\": \"OD990572948\"}"}
+{"text": "payment fail ho gaya par paisa kat gaya", "intent": "payment_failed", "order_id": null, "raw_output": "{\"intent\": \"payment_failed\", \"order_id\": null}"}
+{"text": "mera card block kar do turant jaldi", "intent": "card_block", "order_id": null, "raw_output": "{\"intent\": \"card_block\", \"order_id\": null}"}
+{"text": "watch pasand nahi aaya, return karna hai", "intent": "product_return", "order_id": null, "raw_output": "{\"intent\": \"product_return\", \"order_id\": null}"}
+{"text": "mujhe order ORD712867083 ka refund chahiye", "intent": "refund_request", "order_id": "ORD712867083", "raw_output": "{\"intent\": \"refund_request\", \"order_id\": \"ORD712867083\"}"}
+{"text": "payment fail ho gaya par paisa kat gaya", "intent": "payment_failed", "order_id": null, "raw_output": "{\"intent\": \"payment_failed\", \"order_id\": null}"}
+{"text": "password bhool gaya, reset kaise karu", "intent": "account_login_issue", "order_id": null, "raw_output": "{\"intent\": \"account_login_issue\", \"order_id\": null}"}
+{"text": "kisi ne mera card use kiya h, block karo", "intent": "card_block", "order_id": null, "raw_output": "{\"intent\": \"card_block\", \"order_id\": null}"}
+{"text": "password bhool gaya, reset kaise karu !!", "intent": "account_login_issue", "order_id": null, "raw_output": "{\"intent\": \"account_login_issue\", \"order_id\": null}"}
+{"text": "kisi ne mera card use kiya hai, block karo", "intent": "card_block", "order_id": null, "raw_output": "{\"intent\": \"card_block\", \"order_id\": null}"}
+{"text": "mera card block kar do turant", "intent": "card_block", "order_id": null, "raw_output": "{\"intent\": \"card_block\", \"order_id\": null}"}
+{"text": "order 671763552 cancel kar do", "intent": "cancel_order", "order_id": "671763552", "raw_output": "{\"intent\": \"cancel_order\", \"order_id\": \"671763552\"}"}
+{"text": "payment fail ho gaya par paisa kat gaya", "intent": "payment_failed", "order_id": null, "raw_output": "{\"intent\": \"payment_failed\", \"order_id\": null}"}
+{"text": "can I change the shipping address for OD67115850 asap", "intent": "address_change", "order_id": "OD67115850", "raw_output": "{\"intent\": \"address_change\", \"order_id\": \"OD67115850\"}"}
+{"text": "kisi insaan se baat karni hai urgent", "intent": "talk_to_agent", "order_id": null, "raw_output": "{\"intent\": \"talk_to_agent\", \"order_id\": null}"}
+{"text": "mera card block kar do turant", "intent": "card_block", "order_id": null, "raw_output": "{\"intent\": \"card_block\", \"order_id\": null}"}
+{"text": "UPI se pay kiya, transaction failed dikha raha hai", "intent": "payment_failed", "order_id": null, "raw_output": "{\"intent\": \"payment_failed\", \"order_id\": null}"}
+{"text": "return ho gaya mixer grinder, refund kab aayega urgent", "intent": "refund_request", "order_id": null, "raw_output": "{\"intent\": \"product_return\", \"order_id\": null}"}
+{"text": "flat number galat likha hai address mein", "intent": "address_change", "order_id": null, "raw_output": "{\"intent\": \"address_change\", \"order_id\": null}"}
+{"text": "can I change the shipping address for KX873696719", "intent": "address_change", "order_id": "KX873696719", "raw_output": "{\"intent\": \"address_change\", \"order_id\": \"KX873696719\"}"}
+{"text": "can I change the shipping address for ORD510704573", "intent": "address_change", "order_id": "ORD510704573", "raw_output": "{\"intent\": \"address_change\", \"order_id\": \"ORD510704573\"}"}
+{"text": "call back karwa do kisi executive se", "intent": "talk_to_agent", "order_id": null, "raw_output": "{\"intent\": \"talk_to_agent\", \"order_id\": null}"}
+{"text": "call back karwa do kisi executive se", "intent": "talk_to_agent", "order_id": null, "raw_output": "{\"intent\": \"talk_to_agent\", \"order_id\": null}"}
+{"text": "kisi ne mera card use kiya hai, block karo", "intent": "card_block", "order_id": null, "raw_output": "{\"intent\": \"card_block\", \"order_id\": null}"}
+{"text": "mujhe order KX915244278 ka refund chahiye", "intent": "refund_request", "order_id": "KX915244278", "raw_output": "{\"intent\": \"refund_request\", \"order_id\": \"KX915244278\"}"}
+{"text": "app mein sign in fail ho raha hai", "intent": "account_login_issue", "order_id": null, "raw_output": "{\"intent\": \"account_login_issue\", \"order_id\": null}"}
+{"text": "mujhe ye order nahi chahiye, cancel karo", "intent": "cancel_order", "order_id": null, "raw_output": "{\"intent\": \"cancel_order\", \"order_id\": null}"}
+{"text": "mujhe order kx325866432 ka refund chahiye", "intent": "refund_request", "order_id": "KX325866432", "raw_output": "{\"intent\": \"refund_request\", \"order_id\": \"KX325866432\"}"}
+{"text": "flat number galat likha hai address mein", "intent": "address_change", "order_id": null, "raw_output": "{\"intent\": \"address_change\", \"order_id\": null}"}
+{"text": "kitna time aur lagega delivery mein, ORD307269519", "intent": "delivery_delay", "order_id": "ORD307269519", "raw_output": "{\"intent\": \"delivery_delay\", \"order_id\": \"ORD307269519\"}"}
+{"text": "status update chahiye order ORD694987769 ka please", "intent": "order_status", "order_id": "ORD694987769", "raw_output": "{\"intent\": \"order_status\", \"order_id\": \"ORD694987769\"}"}
+{"text": "password bhool gaya, reset kaise karu", "intent": "account_login_issue", "order_id": null, "raw_output": "{\"intent\": \"account_login_issue\", \"order_id\": null}"}
+{"text": "I want to return the mixer grinder from order KX864968700", "intent": "product_return", "order_id": "KX864968700", "raw_output": "{\"intent\": \"product_return\", \"order_id\": \"KX864968700\"}"}
+{"text": "call back karwa do kisi executive se !!", "intent": "talk_to_agent", "order_id": null, "raw_output": "{\"intent\": \"talk_to_agent\", \"order_id\": null}"}
+{"text": "return ho gaya phone, refund kab aayega", "intent": "refund_request", "order_id": null, "raw_output": "{\"intent\": \"product_return\", \"order_id\": null}"}
+{"text": "kisi ne mera card use kiya hai, block karo", "intent": "card_block", "order_id": null, "raw_output": "{\"intent\": \"card_block\", \"order_id\": null}"}
+{"text": "mera card block kar do turant asap", "intent": "card_block", "order_id": null, "raw_output": "{\"intent\": \"card_block\", \"order_id\": null}"}
+{"text": "can i change the shipping address for od475423722", "intent": "address_change", "order_id": "OD475423722", "raw_output": "{\"intent\": \"address_change\", \"order_id\": \"OD475423722\"}"}
+{"text": "payment fail ho gaya par paisa kat gaya", "intent": "payment_failed", "order_id": null, "raw_output": "{\"intent\": \"payment_failed\", \"order_id\": null}"}
+{"text": "OD201634595 wala order abhi tak ship hua ya nahi?", "intent": "order_status", "order_id": "OD201634595", "raw_output": "{\"intent\": \"order_status\", \"order_id\": \"OD201634595\"}"}
+{"text": "733164961 wala order abhi tak ship hua ya nahi", "intent": "order_status", "order_id": "733164961", "raw_output": "{\"intent\": \"order_status\", \"order_id\": \"733164961\"}"}
+{"text": "kitna time aur lagega delivery mein, OD862169608", "intent": "delivery_delay", "order_id": "OD862169608", "raw_output": "{\"intent\": \"delivery_delay\", \"order_id\": \"OD862169608\"}"}
+{"text": "mixer grinder pasand nhi aaya, return karna hai", "intent": "product_return", "order_id": null, "raw_output": "{\"intent\": \"product_return\", \"order_id\": null}"}
+{"text": "payment fail ho gaya par paisa kat gaya", "intent": "payment_failed", "order_id": null, "raw_output": "{\"intent\": \"payment_failed\", \"order_id\": null}"}
+{"text": "od591069884 wala order abhi tak ship hua ya nhi", "intent": "order_status", "order_id": "OD591069884", "raw_output": "{\"intent\": \"order_status\", \"order_id\": \"OD591069884\"}"}
+{"text": "kisi insaan se baat karni hai", "intent": "talk_to_agent", "order_id": null, "raw_output": "{\"intent\": \"talk_to_agent\", \"order_id\": null}"}
+{"text": "order ORD193905107 cancel kar do jaldi", "intent": "cancel_order", "order_id": "ORD193905107", "raw_output": "{\"intent\": \"cancel_order\", \"order_id\": \"ORD193905107\"}"}
+{"text": "order OD499179779 cancel kar do", "intent": "cancel_order", "order_id": "OD499179779", "raw_output": "{\"intent\": \"cancel_order\", \"order_id\": \"OD499179779\"}"}
+{"text": "status update chahiye order 706091085 ka pls", "intent": "order_status", "order_id": "706091085", "raw_output": "{\"intent\": \"order_status\", \"order_id\": \"706091085\"}"}
+{"text": "return ho gaya saree, refund kab aayega !!", "intent": "refund_request", "order_id": null, "raw_output": "{\"intent\": \"product_return\", \"order_id\": null}"}
+{"text": "mujhe ye order nahi chahiye, cancel karo jaldi", "intent": "cancel_order", "order_id": null, "raw_output": "{\"intent\": \"cancel_order\", \"order_id\": null}"}
+{"text": "mujhe order 124849044 ka refund chahiye", "intent": "refund_request", "order_id": "124849044", "raw_output": "{\"intent\": \"refund_request\", \"order_id\": \"124849044\"}"}
+{"text": "call back karwa do kisi executive se", "intent": "talk_to_agent", "order_id": null, "raw_output": "{\"intent\": \"talk_to_agent\", \"order_id\": null}"}
+{"text": "mera card block kar do turant", "intent": "card_block", "order_id": null, "raw_output": "{\"intent\": \"card_block\", \"order_id\": null}"}
+{"text": "payment fail ho gaya par paisa kat gaya jaldi", "intent": "payment_failed", "order_id": null, "raw_output": "{\"intent\": \"payment_failed\", \"order_id\": null}"}
+{"text": "flat number galat likha hai address mein", "intent": "address_change", "order_id": null, "raw_output": "{\"intent\": \"address_change\", \"order_id\": null}"}
+{"text": "12 din ho gaye abhi tak delivery nhi hui", "intent": "delivery_delay", "order_id": null, "raw_output": "{\"intent\": \"delivery_delay\", \"order_id\": null}"}
+{"text": "kitna time aur lagega delivery mein, kx591386019", "intent": "delivery_delay", "order_id": "KX591386019", "raw_output": "{\"intent\": \"delivery_delay\", \"order_id\": \"KX591386019\"}"}
+{"text": "call back karwa do kisi executive se", "intent": "talk_to_agent", "order_id": null, "raw_output": "{\"intent\": \"talk_to_agent\", \"order_id\": null}"}
+{"text": "kisi insaan se baat karni hai", "intent": "talk_to_agent", "order_id": null, "raw_output": "{\"intent\": \"talk_to_agent\", \"order_id\": null}"}
+{"text": "status update chahiye order ord814236062 ka plz", "intent": "order_status", "order_id": "ORD814236062", "raw_output": "{\"intent\": \"order_status\", \"order_id\": \"ORD814236062\"}"}
+{"text": "412074351 wala order abhi tak ship hua ya nahin? asap", "intent": "order_status", "order_id": "412074351", "raw_output": "{\"intent\": \"order_status\", \"order_id\": \"412074351\"}"}
+{"text": "kurta pasand nahin aaya, return karna hai", "intent": "product_return", "order_id": null, "raw_output": "{\"intent\": \"product_return\", \"order_id\": null}"}
+{"text": "mujhe ye order nhi chahiye, cancel karo", "intent": "cancel_order", "order_id": null, "raw_output": "{\"intent\": \"cancel_order\", \"order_id\": null}"}
+{"text": "call back karwa do kisi executive se", "intent": "talk_to_agent", "order_id": null, "raw_output": "{\"intent\": \"talk_to_agent\", \"order_id\": null}"}
+{"text": "return ho gaya water bottle, refund kab aayega", "intent": "refund_request", "order_id": null, "raw_output": "{\"intent\": \"product_return\", \"order_id\": null}"}
+{"text": "password bhool gaya, reset kaise karu", "intent": "account_login_issue", "order_id": null, "raw_output": "{\"intent\": \"account_login_issue\", \"order_id\": null}"}
+{"text": "shoes pasand nahi aaya, return karna h jaldi", "intent": "product_return", "order_id": null, "raw_output": "{\"intent\": \"product_return\", \"order_id\": null}"}
+{"text": "kisi ne mera card use kiya hai, block karo", "intent": "card_block", "order_id": null, "raw_output": "{\"intent\": \"card_block\", \"order_id\": null}"}
+{"text": "kisi ne mera card use kiya hai, block karo", "intent": "card_block", "order_id": null, "raw_output": "{\"intent\": \"card_block\", \"order_id\": null}"}
+{"text": "t-shirt pasand nahi aaya, return karna hai", "intent": "product_return", "order_id": null, "raw_output": "{\"intent\": \"product_return\", \"order_id\": null}"}
+{"text": "mujhe ye order nahi chahiye, cancel karo", "intent": "cancel_order", "order_id": null, "raw_output": "{\"intent\": \"cancel_order\", \"order_id\": null}"}
+{"text": "14 din ho gaye abhi tak delivery nahi hui asap", "intent": "delivery_delay", "order_id": null, "raw_output": "{\"intent\": \"delivery_delay\", \"order_id\": null}"}
+{"text": "UPI se pay kiya, transaction failed dikha raha hai", "intent": "payment_failed", "order_id": null, "raw_output": "{\"intent\": \"payment_failed\", \"order_id\": null}"}
+{"text": "ORD624933740 wala order abhi tak ship hua ya nahin?", "intent": "order_status", "order_id": "ORD624933740", "raw_output": "{\"intent\": \"order_status\", \"order_id\": \"ORD624933740\"}"}
+{"text": "kisi insaan se baat karni h", "intent": "talk_to_agent", "order_id": null, "raw_output": "{\"intent\": \"talk_to_agent\", \"order_id\": null}"}
+{"text": "password bhool gaya, reset kaise karu", "intent": "account_login_issue", "order_id": null, "raw_output": "{\"intent\": \"account_login_issue\", \"order_id\": null}"}
+{"text": "mra card block kar do turant", "intent": "card_block", "order_id": null, "raw_output": "{\"intent\": \"card_block\", \"order_id\": null}"}
+{"text": "call back karwa do kisi executive se urgent", "intent": "talk_to_agent", "order_id": null, "raw_output": "{\"intent\": \"talk_to_agent\", \"order_id\": null}"}
+{"text": "mera card block kar do turant", "intent": "card_block", "order_id": null, "raw_output": "{\"intent\": \"card_block\", \"order_id\": null}"}
+{"text": "I want to return the charger from order ORD254932992", "intent": "product_return", "order_id": "ORD254932992", "raw_output": "{\"intent\": \"product_return\", \"order_id\": \"ORD254932992\"}"}
+{"text": "UPI se pay kiya, transaction failed dikha raha hai", "intent": "payment_failed", "order_id": null, "raw_output": "{\"intent\": \"payment_failed\", \"order_id\": null}"}
+{"text": "mera card block kar do turant", "intent": "card_block", "order_id": null, "raw_output": "{\"intent\": \"card_block\", \"order_id\": null}"}
+{"text": "ORD805149930 wala order abhi tak ship hua ya nahi? asap", "intent": "order_status", "order_id": "ORD805149930", "raw_output": "{\"intent\": \"order_status\", \"order_id\": \"ORD805149930\"}"}
+{"text": "flat number galat likha hai address mein", "intent": "address_change", "order_id": null, "raw_output": "{\"intent\": \"address_change\", \"order_id\": null}"}
+{"text": "I want to return the kurta from order KX641509036", "intent": "product_return", "order_id": "KX641509036", "raw_output": "{\"intent\": \"product_return\", \"order_id\": \"KX641509036\"}"}
+{"text": "status update chahiye order od290840558 ka plz", "intent": "order_status", "order_id": "OD290840558", "raw_output": "{\"intent\": \"order_status\", \"order_id\": \"OD290840558\"}"}
+{"text": "mujhe ye order nahi chahiye, cancel karo", "intent": "cancel_order", "order_id": null, "raw_output": "{\"intent\": \"cancel_order\", \"order_id\": null}"}
+{"text": "UPI se pay kiya, transaction failed dikha raha hai", "intent": "payment_failed", "order_id": null, "raw_output": "{\"intent\": \"payment_failed\", \"order_id\": null}"}
+{"text": "order ord592535775 cancel kar do", "intent": "cancel_order", "order_id": "ORD592535775", "raw_output": "{\"intent\": \"cancel_order\", \"order_id\": \"ORD592535775\"}"}
+{"text": "return ho gaya saree, refund kab aayega", "intent": "refund_request", "order_id": null, "raw_output": "{\"intent\": \"product_return\", \"order_id\": null}"}
+{"text": "i want to return the laptop bag from order 170953712", "intent": "product_return", "order_id": "170953712", "raw_output": "{\"intent\": \"product_return\", \"order_id\": \"170953712\"}"}
+{"text": "UPI se pay kiya, transaction failed dikha raha hai", "intent": "payment_failed", "order_id": null, "raw_output": "{\"intent\": \"payment_failed\", \"order_id\": null}"}
+{"text": "flat number galat likha hai address mein", "intent": "address_change", "order_id": null, "raw_output": "{\"intent\": \"address_change\", \"order_id\": null}"}
+{"text": "kisi ne mera card use kiya hai, block karo", "intent": "card_block", "order_id": null, "raw_output": "{\"intent\": \"card_block\", \"order_id\": null}"}
+{"text": "password bhool gaya, reset kaise karu", "intent": "account_login_issue", "order_id": null, "raw_output": "{\"intent\": \"account_login_issue\", \"order_id\": null}"}
+{"text": "app mein sign in fail ho raha hai", "intent": "account_login_issue", "order_id": null, "raw_output": "{\"intent\": \"account_login_issue\", \"order_id\": null}"}
+{"text": "mujhe ye order nahi chahiye, cancel karo", "intent": "cancel_order", "order_id": null, "raw_output": "{\"intent\": \"cancel_order\", \"order_id\": null}"}
+{"text": "mujhe order 132431652 ka refund chahiye", "intent": "refund_request", "order_id": "132431652", "raw_output": "{\"intent\": \"refund_request\", \"order_id\": \"132431652\"}"}
+{"text": "shoes pasand nahin aaya, return karna hai", "intent": "product_return", "order_id": null, "raw_output": "{\"intent\": \"product_return\", \"order_id\": null}"}
+{"text": "I want to return the jeans from order 95847386", "intent": "product_return", "order_id": "95847386", "raw_output": "{\"intent\": \"product_return\", \"order_id\": \"95847386\"}"}
+{"text": "order ord313071541 cancel kar do", "intent": "cancel_order", "order_id": "ORD313071541", "raw_output": "{\"intent\": \"cancel_order\", \"order_id\": \"ORD313071541\"}"}
+{"text": "KX456510829 wala order abhi tak ship hua ya nahi?", "intent": "order_status", "order_id": "KX456510829", "raw_output": "{\"intent\": \"order_status\", \"order_id\": \"KX456510829\"}"}
+{"text": "mujhe ye order nahi chahiye, cancel kro", "intent": "cancel_order", "order_id": null, "raw_output": "{\"intent\": \"cancel_order\", \"order_id\": null}"}
+{"text": "kitna time aur lagega delivery mein, KX15423527", "intent": "delivery_delay", "order_id": "KX15423527", "raw_output": "{\"intent\": \"delivery_delay\", \"order_id\": \"KX15423527\"}"}
+{"text": "status update chahiye order ORD522662437 ka please", "intent": "order_status", "order_id": "ORD522662437", "raw_output": "{\"intent\": \"order_status\", \"order_id\": \"ORD522662437\"}"}
+{"text": "password bhool gaya, reset kaise karu asap", "intent": "account_login_issue", "order_id": null, "raw_output": "{\"intent\": \"account_login_issue\", \"order_id\": null}"}
+{"text": "status update chahiye order kx354851196 ka please", "intent": "order_status", "order_id": "KX354851196", "raw_output": "{\"intent\": \"order_status\", \"order_id\": \"KX354851196\"}"}
+{"text": "kisi insaan se baat karni hai", "intent": "talk_to_agent", "order_id": null, "raw_output": "{\"intent\": \"talk_to_agent\", \"order_id\": null}"}
+{"text": "call back karwa do kisi executive se", "intent": "talk_to_agent", "order_id": null, "raw_output": "{\"intent\": \"talk_to_agent\", \"order_id\": null}"}
+{"text": "I want to return the jeans from order OD476413335 !!", "intent": "product_return", "order_id": "OD476413335", "raw_output": "{\"intent\": \"product_return\", \"order_id\": \"OD476413335\"}"}
+{"text": "call back karwa do kisi executive se", "intent": "talk_to_agent", "order_id": null, "raw_output": "{\"intent\": \"talk_to_agent\", \"order_id\": null}"}
+{"text": "shoes pasand nahi aaya, return karna hai jaldi", "intent": "product_return", "order_id": null, "raw_output": "{\"intent\": \"product_return\", \"order_id\": null}"}
+{"text": "status update chahiye order OD600936560 ka please", "intent": "order_status", "order_id": "OD600936560", "raw_output": "{\"intent\": \"order_status\", \"order_id\": \"OD600936560\"}"}
+{"text": "headphones pasand nahi aaya, return karna h", "intent": "product_return", "order_id": null, "raw_output": "{\"intent\": \"product_return\", \"order_id\": null}"}
+{"text": "mujhe ye order nahi chahiye, cancel karo", "intent": "cancel_order", "order_id": null, "raw_output": "{\"intent\": \"cancel_order\", \"order_id\": null}"}
+{"text": "i want to return the t-shirt from order kx312203708", "intent": "product_return", "order_id": "KX312203708", "raw_output": "{\"intent\": \"product_return\", \"order_id\": \"KX312203708\"}"}
+{"text": "4 din ho gaye abhi tak delivery nahi hui", "intent": "delivery_delay", "order_id": null, "raw_output": "{\"intent\": \"delivery_delay\", \"order_id\": null}"}
+{"text": "10 din ho gaye abhi tak delivery nahi hui", "intent": "delivery_delay", "order_id": null, "raw_output": "{\"intent\": \"delivery_delay\", \"order_id\": null}"}
+{"text": "upi se pay kiya, transaction failed dikha raha h", "intent": "payment_failed", "order_id": null, "raw_output": "{\"intent\": \"payment_failed\", \"order_id\": null}"}
+{"text": "mera card block kar do turant", "intent": "card_block", "order_id": null, "raw_output": "{\"intent\": \"card_block\", \"order_id\": null}"}
+{"text": "KX786616079 wala order abhi tak ship hua ya nahi? asap", "intent": "order_status", "order_id": "KX786616079", "raw_output": "{\"intent\": \"order_status\", \"order_id\": \"KX786616079\"}"}
+{"text": "return ho gaya mixer grinder, refund kab aayega", "intent": "refund_request", "order_id": null, "raw_output": "{\"intent\": \"product_return\", \"order_id\": null}"}
+{"text": "app mein sign in fail ho raha hai", "intent": "account_login_issue", "order_id": null, "raw_output": "{\"intent\": \"account_login_issue\", \"order_id\": null}"}
+{"text": "can I change the shipping address for 306618097", "intent": "address_change", "order_id": "306618097", "raw_output": "{\"intent\": \"address_change\", \"order_id\": \"306618097\"}"}
+{"text": "I want to return the jeans from order ORD533279634", "intent": "product_return", "order_id": "ORD533279634", "raw_output": "{\"intent\": \"product_return\", \"order_id\": \"ORD533279634\"}"}
+{"text": "return ho gaya charger, refund kab aayega !!", "intent": "refund_request", "order_id": null, "raw_output": "{\"intent\": \"product_return\", \"order_id\": null}"}
+{"text": "I want to return the t-shirt from order 36285005 asap", "intent": "product_return", "order_id": "36285005", "raw_output": "{\"intent\": \"product_return\", \"order_id\": \"36285005\"}"}
+{"text": "kisi insaan se baat karni hai", "intent": "talk_to_agent", "order_id": null, "raw_output": "{\"intent\": \"talk_to_agent\", \"order_id\": null}"}
+{"text": "kitna time aur lagega delivery mein, 284547837", "intent": "delivery_delay", "order_id": "284547837", "raw_output": "{\"intent\": \"delivery_delay\", \"order_id\": \"284547837\"}"}
+{"text": "app mein sign in fail ho raha h", "intent": "account_login_issue", "order_id": null, "raw_output": "{\"intent\": \"account_login_issue\", \"order_id\": null}"}
+{"text": "flat number galat likha hai address mein", "intent": "address_change", "order_id": null, "raw_output": "{\"intent\": \"address_change\", \"order_id\": null}"}
+{"text": "call back karwa do kisi executive se", "intent": "talk_to_agent", "order_id": null, "raw_output": "{\"intent\": \"talk_to_agent\", \"order_id\": null}"}
+{"text": "order OD359899956 cancel kar do", "intent": "cancel_order", "order_id": "OD359899956", "raw_output": "{\"intent\": \"cancel_order\", \"order_id\": \"OD359899956\"}"}
+{"text": "OD268413465 wala order abhi tak ship hua ya nahi?", "intent": "order_status", "order_id": "OD268413465", "raw_output": "{\"intent\": \"order_status\", \"order_id\": \"OD268413465\"}"}
+{"text": "order 979902833 cancel kar do", "intent": "cancel_order", "order_id": "979902833", "raw_output": "{\"intent\": \"cancel_order\", \"order_id\": \"979902833\"}"}
+{"text": "107647841 wala order abhi tak ship hua ya nahi? !!", "intent": "order_status", "order_id": "107647841", "raw_output": "{\"intent\": \"order_status\", \"order_id\": \"107647841\"}"}
+{"text": "mujhe order kx598078280 ka refund chahiye", "intent": "refund_request", "order_id": "KX598078280", "raw_output": "{\"intent\": \"refund_request\", \"order_id\": \"KX598078280\"}"}
+{"text": "mixer grinder pasand nahi aaya, return karna h", "intent": "product_return", "order_id": null, "raw_output": "{\"intent\": \"product_return\", \"order_id\": null}"}
+{"text": "return ho gaya water bottle, refund kab aayega", "intent": "refund_request", "order_id": null, "raw_output": "{\"intent\": \"product_return\", \"order_id\": null}"}
+{"text": "mujhe ye order nhi chahiye, cancel karo", "intent": "cancel_order", "order_id": null, "raw_output": "{\"intent\": \"cancel_order\", \"order_id\": null}"}
+{"text": "app mein sign in fail ho raha hai", "intent": "account_login_issue", "order_id": null, "raw_output": "{\"intent\": \"account_login_issue\", \"order_id\": null}"}
+{"text": "kitna time aur lagega delivery mein, ORD755452922", "intent": "delivery_delay", "order_id": "ORD755452922", "raw_output": "{\"intent\": \"delivery_delay\", \"order_id\": \"ORD755452922\"}"}
+{"text": "return ho gaya jeans, refund kab aayega", "intent": "refund_request", "order_id": null, "raw_output": "{\"intent\": \"product_return\", \"order_id\": null}"}
+{"text": "can i change the shipping address for kx532724151", "intent": "address_change", "order_id": "KX532724151", "raw_output": "{\"intent\": \"address_change\", \"order_id\": \"KX532724151\"}"}
+{"text": "payment fail ho gaya par paisa kat gaya", "intent": "payment_failed", "order_id": null, "raw_output": "{\"intent\": \"payment_failed\", \"order_id\": null}"}
+{"text": "kitna time aur lagega delivery mein, OD420075954", "intent": "delivery_delay", "order_id": "OD420075954", "raw_output": "{\"intent\": \"delivery_delay\", \"order_id\": \"OD420075954\"}"}
+{"text": "mujhe ye order nhi chahiye, cancel karo", "intent": "cancel_order", "order_id": null, "raw_output": "{\"intent\": \"cancel_order\", \"order_id\": null}"}
+{"text": "can I change the shipping address for OD518070753", "intent": "address_change", "order_id": "OD518070753", "raw_output": "{\"intent\": \"address_change\", \"order_id\": \"OD518070753\"}"}
+{"text": "mujhe order KX551284117 ka refund chahiye", "intent": "refund_request", "order_id": "KX551284117", "raw_output": "{\"intent\": \"refund_request\", \"order_id\": \"KX551284117\"}"}
+{"text": "od574258474 wala order abhi tak ship hua ya nahin?", "intent": "order_status", "order_id": "OD574258474", "raw_output": "{\"intent\": \"order_status\", \"order_id\": \"OD574258474\"}"}
+{"text": "status update chahiye order KX613462253 ka plz", "intent": "order_status", "order_id": "KX613462253", "raw_output": "{\"intent\": \"order_status\", \"order_id\": \"KX613462253\"}"}
+{"text": "mujhe order 895358270 ka refund chahiye", "intent": "refund_request", "order_id": "895358270", "raw_output": "{\"intent\": \"refund_request\", \"order_id\": \"895358270\"}"}
+{"text": "flat number galat likha hai address mein", "intent": "address_change", "order_id": null, "raw_output": "{\"intent\": \"address_change\", \"order_id\": null}"}
+{"text": "password bhool gaya, reset kaise karu asap", "intent": "account_login_issue", "order_id": null, "raw_output": "{\"intent\": \"account_login_issue\", \"order_id\": null}"}
+{"text": "I want to return the kurta from order KX494028801", "intent": "product_return", "order_id": "KX494028801", "raw_output": "{\"intent\": \"product_return\", \"order_id\": \"KX494028801\"}"}
+{"text": "mujhe order OD579474377 ka refund chahiye", "intent": "refund_request", "order_id": "OD579474377", "raw_output": "{\"intent\": \"refund_request\", \"order_id\": \"OD579474377\"}"}

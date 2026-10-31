@@ -19,14 +19,24 @@ A Gradio app (`space/`) runs the fine-tuned model next to the base model on the 
 
 ## Results
 
-Held-out test set: 240 messages built from sentence patterns **never seen in training**.
+Held-out test set: 240 messages built from sentence patterns **never seen in training**. Same prompt, same decoding, same script for both rows.
 
-| Model | JSON valid | Intent accuracy | Macro-F1 | Order-ID exact | ms / example |
-|---|---|---|---|---|---|
-| Qwen2.5-0.5B-Instruct (zero-shot) | _run notebook_ | | | | |
-| + LoRA SFT (this repo) | _run notebook_ | | | | |
+| Model | Intent accuracy | Macro-F1 | Order-ID exact | Labels outside the allowed set |
+|---|---|---|---|---|
+| Qwen2.5-0.5B-Instruct (zero-shot) | 55.4% | 0.538 | 76.7% | 32 / 240 |
+| **+ LoRA SFT (this repo)** | **95.0%** | **0.947** | **100%** | **0 / 240** |
 
-Loss curve: `results/loss.png` · per-example predictions for error analysis: `results/*_predictions.jsonl`
+Both models produced valid JSON 100% of the time. Trained in about 15 minutes on a free Colab T4; adapter on the Hub: [`abhikrs41/qwen05-hinglish-intent-lora`](https://huggingface.co/abhikrs41/qwen05-hinglish-intent-lora) (8.8M parameters).
+
+![Training and validation loss](results/loss.png)
+
+### Error analysis
+
+- **Base model:** made up labels that aren't in the allowed list (`login_failure`, `delivery`, `delivery_status`) 32 times, confused *payment failed* with *refund* 24 times, and often missed order IDs or mangled them (`order_kx354851196`, lowercase IDs).
+- **Fine-tuned model:** all 12 remaining errors come from **one** held-out sentence pattern, *"return ho gaya kurta, refund kab aayega"*, predicted as `product_return` instead of `refund_request`. The message mentions both a return and a refund, so it is genuinely ambiguous; the fix is a training pattern for "return done, where's my refund".
+- **Caveat:** validation loss falls close to zero because validation shares sentence patterns with training. The held-out test set is the honest measure, and the data is synthetic, so real chat transcripts would be harder.
+
+All predictions are in `results/*_predictions.jsonl`; metrics in `results/*_metrics.json`.
 
 ## How it works
 
@@ -64,7 +74,7 @@ pytest tests
 ## Limitations and next steps
 
 - Data is synthetic and template-based; real support transcripts are messier (longer, multi-intent, Devanagari mixed in).
-- Next: a DPO pass on preference pairs (correct JSON vs common mistakes), compare LoRA ranks, and try Qwen2.5-1.5B to measure the accuracy/latency trade-off.
+- Next: add a training pattern for the return-then-refund case, a DPO pass on preference pairs, compare LoRA ranks, and try Qwen2.5-1.5B to measure the accuracy/latency trade-off.
 
 ## Deploy the demo (free)
 
@@ -79,7 +89,7 @@ The first start downloads the 0.5B model (~1 GB) and takes a few minutes.
 ```
 data/generate.py      synthetic dataset generator
 src/common.py         prompt format, output parsing, metrics
-src/train.py          QLoRA SFT with TRL
+src/train.py          LoRA / QLoRA SFT with TRL
 src/evaluate.py       base vs fine-tuned evaluation
 train_colab.ipynb     end-to-end Colab run
 tests/                unit tests for parsing and metrics
