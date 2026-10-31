@@ -107,6 +107,15 @@ def main():
         processing_class=tokenizer,
         peft_config=peft_config,
     )
+    if use_4bit and not ampere:
+        # TRL casts QLoRA adapter weights to bf16, but fp16 mixed precision (the only option on a T4)
+        # needs fp32 trainable weights for its gradient scaler. Keep the adapters in fp32 instead.
+        n = 0
+        for p in trainer.model.parameters():
+            if p.requires_grad and p.dtype != torch.float32:
+                p.data = p.data.float()
+                n += 1
+        print(f"Cast {n} trainable LoRA tensors to fp32 for fp16 mixed precision")
     trainer.model.print_trainable_parameters()
     trainer.train()
 
