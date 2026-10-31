@@ -11,6 +11,12 @@ Ten intents from e-commerce and banking support (order status, refund, cancellat
 
 [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Abhisheklpu1731/hinglish-intent-qlora/blob/main/train_colab.ipynb)
 
+## Demo
+
+A Gradio app (`space/`) runs the fine-tuned model next to the base model on the same message, so the effect of fine-tuning is visible side by side, with CPU latency for each. It runs on a free Hugging Face CPU Space.
+
+**Live demo:** _link added after deployment_
+
 ## Results
 
 Held-out test set: 240 messages built from sentence patterns **never seen in training**.
@@ -58,6 +64,15 @@ pytest tests
 - Data is synthetic and template-based; real support transcripts are messier (longer, multi-intent, Devanagari mixed in).
 - Next: a DPO pass on preference pairs (correct JSON vs common mistakes), compare LoRA ranks, and try Qwen2.5-1.5B to measure the accuracy/latency trade-off.
 
+## Deploy the demo (free)
+
+1. Run the Colab notebook to the end. Its last cell pushes the LoRA adapter to `<your-hf-username>/qwen05-hinglish-intent-lora`.
+2. On huggingface.co: **New Space** → SDK **Gradio** → hardware **CPU basic (free)**.
+3. Upload the three files from `space/` (`app.py`, `requirements.txt`, `README.md`).
+4. If your adapter repo name differs, set `ADAPTER_ID` under Space → Settings → Variables.
+
+The first start downloads the 0.5B model (~1 GB) and takes a few minutes.
+
 ## Structure
 ```
 data/generate.py      synthetic dataset generator
@@ -66,4 +81,5 @@ src/train.py          QLoRA SFT with TRL
 src/evaluate.py       base vs fine-tuned evaluation
 train_colab.ipynb     end-to-end Colab run
 tests/                unit tests for parsing and metrics
+space/                Gradio demo for Hugging Face Spaces
 ```
